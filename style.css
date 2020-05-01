@@ -74,7 +74,27 @@ body {
     position: relative;
     border-bottom: 1px solid var(--light-grey);
 }
+/*Hover indicator on sub menu*/
+.menu-item__sub a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.4rem;
+    height: 100%;
+    /*background: var(--blue);*/  /* I like read color better */
+    background: red;
+    transform: translateX(-0.4rem);
+    transition: 0.3s;
+    opacity: 0; /* even if the opacity is not 0, we cannot see it with z-index:4, I don't why */
+    z-index: 4;
+}
+.menu-item__sub a:hover::before {
+    opacity: 1;
+    transform: translateX(0);
+}
 
+/*Trigger of the animation transition*/
 .menu-item:target .menu-item__sub {
     max-height: 10em;
 }
