@@ -60,6 +60,20 @@ body {
     margin-right: 1rem;
 }
 
+.menu-item__sub {
+    background: var(--grey);
+    overflow: hidden;
+    transition: max-height 0.3s;
+    /*max-height: 0;*/
+}
+.menu-item__sub a {
+    display: block;
+    padding: 1rem 1.6rem;
+    color: white;
+    font-size: 0.9rem;
+    position: relative;
+    border-bottom: 1px solid var(--light-grey);
+}
 
 
 
