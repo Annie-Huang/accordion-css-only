@@ -10,3 +10,4 @@ https://cdnjs.com/libraries/font-awesome
 
 div.menu>li.menu-item*4>a.btn>i.far.fa-user^div.menu-item__sub>a*2
 
+C:\react\accordion-css-only>npm init -y
