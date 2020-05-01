@@ -5,9 +5,27 @@ https://codepen.io/codeSTACKr/pen/bGVgeYz
 https://github.com/Annie-Huang?tab=repositories
 
 https://cdnjs.com/libraries/font-awesome
+https://developer.mozilla.org/en-US/docs/Web/CSS/:target
 =====================================================
 
 
 div.menu>li.menu-item*4>a.btn>i.far.fa-user^div.menu-item__sub>a*2
 
 C:\react\accordion-css-only>npm init -y
+
+-----
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/:target
+The :target CSS pseudo-class represents a unique element (the target element) with an id matching the URL's fragment.
+
+So when we click the  <a href="#profile" class="btn">..</a> the url will change to:
+http://localhost:3000/#profile
+http://localhost:3000/#messages
+http://localhost:3000/#settings
+
+Hence the .menu-item:target becomes:
+.menu-item#profile
+.menu-item#messages
+.menu-item#settings
+
+gets the menu-item element's id value, which is 'profile', 'message' and 'settings'.

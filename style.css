@@ -64,7 +64,7 @@ body {
     background: var(--grey);
     overflow: hidden;
     transition: max-height 0.3s;
-    /*max-height: 0;*/
+    max-height: 0;
 }
 .menu-item__sub a {
     display: block;
@@ -75,7 +75,9 @@ body {
     border-bottom: 1px solid var(--light-grey);
 }
 
-
+.menu-item:target .menu-item__sub {
+    max-height: 10em;
+}
 
 
 
