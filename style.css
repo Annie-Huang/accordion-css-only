@@ -1,0 +1,50 @@
+:root {
+    --blue: #3498db;
+    --dark-blue: #2980b9;
+    --background: #081118;
+    --grey:#333;
+    --light-grey:#3b3b3b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--background);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
